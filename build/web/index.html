@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Old Books</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .page_header form{margin-left: 950px;margin-top: 0px;}
+            .page_header span {font-size: 12px;} 
+            .page_header input{width: 60px;}
+            .page_header #login{width: 70px;border-radius: 5px 50px;background: #3c6ab7;border-color: white;}
+            .page_header #register{margin-left: 980px; border-radius: 5px 50px;background: #3c6ab7;border-color: white;padding: 5px;}
+            .page_header{background: #3c6ab7;}
+            .page_header .PageName{font-family: fantasy;font-size: 60px;padding: 10px;}
+            .content{margin-top: 30px;}
+            .content img{width: 360px; height: 360px;align-self: center;}
+            .page_footer span{align-self: center;font-size: 12px;}
+            .page_footer{align-self: flex-end;background: #3c6ab7;padding: 10px;}
+        </style>
+    </head>
+    <body>
+        <div class="page_header">
+            <div class="PageName">Old Books</div> <form action="Login" method="post"><table><tr><td><span>Email:</span></td><td><span>Password:</span></td></tr><tr><td><input type="text" name="mail" id="mail"></td><td><input id="passwor2d" type="password" name="password"></td><td><input type="submit" value="Login" id="login"></td></tr></table></form><a href="Register.jsp"><button id="register" type="button" name="Register">Register</button></a>
+        </div>
+        <div class="content">
+            <center><table><tr><td><a href="productUpload.jsp"><img src="seller.jpg"></a></td><td><a href="homepage.jsp"><img src="reader.png"></a></td></tr><tr><th><span style="font-size: 18px;font-family: cursive; text-align: center;">Seller</span></th><th>Reader</th></tr><tr><td><center>Those who want to Sell</center></td><td><center>Those who want to Buy</center></td></tr></table></center>
+        </div>
+        <div class="page_footer">
+            <center><span>This website is for Selling Old Books.</span><br><span>For any queries or complaints Contact Aayam.</span></center>
+        </div>
+    </body>
+</html>
